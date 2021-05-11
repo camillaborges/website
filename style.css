@@ -1,0 +1,75 @@
+html {
+    margin: 0;
+}
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3125rem;
+    
+}
+
+.container {
+    width: 570px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3.75rem;
+}
+
+h2 {
+    font-size:2.625rem; 
+}
+
+h1, h2 {
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 2.25rem;
+}
+
+.bold-text {
+    font-weight: 700;
+    display: block;
+}
+
+h1 span {
+    font-size: 5rem;
+}
+
+h2 span {
+    font-size: 3rem;
+}
+
+a {
+    color: #666365;  
+    text-decoration: none;
+    font-weight: 700; 
+}
+
+a:hover,
+a:focus {
+    color: rgb(51, 71, 62); 
+
+}
+
+.presentation {
+    background: #D7D7D7;
+}
+
+.carrer {
+    background: #FFEAEA;
+    
+}
+
+.projects { 
+    background: #EAF9FF;
+}
+
+.presentation,
+.carrer,
+.projects {
+    margin: 100px 0;
+
+}
