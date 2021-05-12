@@ -1,10 +1,9 @@
-html {
-    margin: 0;
-}
+
 body {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 1.3125rem;
+    margin: 0;
     
 }
 
@@ -15,18 +14,25 @@ body {
 
 h1 {
     font-size: 3.75rem;
+    margin-top: 0;
 }
 
 h2 {
     font-size:2.625rem; 
+    margin-top: 0;
+    border-top: 1px #C4C4C4 solid;
+    border-bottom: 1px #C4C4C4 solid;
+    padding: 0.5em 0;
 }
 
 h1, h2 {
     font-weight: 300;
+   
 }
 
 h3 {
     font-size: 2.25rem;
+    
 }
 
 .bold-text {
@@ -36,10 +42,18 @@ h3 {
 
 h1 span {
     font-size: 5rem;
+    color: #b3aeae; 
+     
 }
 
 h2 span {
     font-size: 3rem;
+    color: #b3aeae;
+    text-shadow:rgb(241, 245, 247) 0.8em;
+}
+
+p{
+    margin-bottom: 0;
 }
 
 a {
@@ -54,22 +68,42 @@ a:focus {
 
 }
 
-.presentation {
-    background: #D7D7D7;
+.presentation,
+.projects {
+    background: #FFF;;
+    color: #252525;
 }
 
 .carrer {
-    background: #FFEAEA;
+    background: #252525;
+    color: #fff;
     
 }
 
-.projects { 
-    background: #EAF9FF;
-}
 
 .presentation,
 .carrer,
 .projects {
-    margin: 100px 0;
+    padding: 4.5em 0;
 
+}
+
+.btn {
+    display: inline-block;
+    background: #666365; 
+    color: white;
+    font-size: 1rem;
+    padding: 0.5em;
+    margin-top: 1em;
+    border-radius: 4px;
+    transition: font-size 0.5ms;
+    text-transform: uppercase;
+    
+}
+
+.btn:hover,
+.btn:focus {
+    background: #545366; 
+    color: white;
+    font-size: 1.05rem;
 }
