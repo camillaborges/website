@@ -1,14 +1,20 @@
 
+html {
+    font-size: 1.3125rem;
+
+}
+
 body {
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.3125rem;
+    font-weight: 300;
     margin: 0;
     
 }
 
 .container {
-    width: 570px;
+    padding: 0 0.2em;
+    max-width: 570px;
     margin: 0 auto;
 }
 
@@ -38,18 +44,17 @@ h3 {
 .bold-text {
     font-weight: 700;
     display: block;
+    color: #b3aeae;
+    text-shadow:rgb(241, 245, 247) 0.8em;
 }
 
 h1 span {
     font-size: 5rem;
-    color: #b3aeae; 
      
 }
 
 h2 span {
     font-size: 3rem;
-    color: #b3aeae;
-    text-shadow:rgb(241, 245, 247) 0.8em;
 }
 
 p{
@@ -66,6 +71,10 @@ a:hover,
 a:focus {
     color: rgb(51, 71, 62); 
 
+}
+
+img {
+    max-width: 100%;
 }
 
 .presentation,
@@ -92,12 +101,11 @@ a:focus {
     display: inline-block;
     background: #666365; 
     color: white;
-    font-size: 1rem;
+    font-size: 0.755rem;
     padding: 0.5em;
     margin-top: 1em;
     border-radius: 4px;
     transition: font-size 0.5ms;
-    text-transform: uppercase;
     
 }
 
@@ -105,5 +113,29 @@ a:focus {
 .btn:focus {
     background: #545366; 
     color: white;
-    font-size: 1.05rem;
+    font-size: 0.855rem;
+}
+
+@media(min-width: 600px) {
+    html {
+        font-size: 1.3125rem;
+    }
+}
+
+@media(min-width: 750px) {
+    .about {
+        display: flex;
+        
+    }
+
+    .projects {
+        background: #66485c; 
+        color:white;
+        max-width: 50%;
+    }
+
+    .carrer {
+        max-width: 50%;
+    }
+
 }
