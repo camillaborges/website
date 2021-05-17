@@ -18,8 +18,15 @@ body {
     margin: 0 auto;
 }
 
+.presentation {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+   
+}
+
 h1 {
-    font-size: 3.75rem;
+    font-size: 3.5rem;
     margin-top: 0;
 }
 
@@ -37,7 +44,7 @@ h1, h2 {
 }
 
 h3 {
-    font-size: 2.25rem;
+    font-size: 1.5rem;
     
 }
 
@@ -61,14 +68,16 @@ p{
     margin-bottom: 0;
 }
 
-a {
+.lkedin,
+.btn,
+.git {
     color: #666365;  
     text-decoration: none;
     font-weight: 700; 
 }
 
-a:hover,
-a:focus {
+.git:hover,
+.git:focus {
     color: rgb(51, 71, 62); 
 
 }
@@ -97,7 +106,8 @@ img {
 
 }
 
-.btn {
+.btn,
+.lkedin {
     display: inline-block;
     background: #666365; 
     color: white;
@@ -110,7 +120,9 @@ img {
 }
 
 .btn:hover,
-.btn:focus {
+.btn:focus,
+.lkedin:hover,
+.lkedin:focus {
     background: #545366; 
     color: white;
     font-size: 0.855rem;
@@ -129,13 +141,28 @@ img {
     }
 
     .projects {
-        background: #66485c; 
+        background: #8d8b8c; 
         color:white;
-        max-width: 50%;
+        width: 100%;
+        
     }
 
     .carrer {
-        max-width: 50%;
+        width: 100%;
     }
+
+    .bold-text,
+    .git {
+        color: rgb(241, 238, 28); 
+    }
+    
+
+    .btn,
+    .lkedin {
+        align-items: bottom;
+    }
+
+
+
 
 }
