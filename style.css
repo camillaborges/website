@@ -45,6 +45,7 @@ h1, h2 {
 
 h3 {
     font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
     
 }
 
@@ -74,6 +75,7 @@ p{
     color: #666365;  
     text-decoration: none;
     font-weight: 700; 
+    font-family: 'Raleway', sans-serif;
 }
 
 .git:hover,
@@ -109,23 +111,34 @@ img {
 .btn,
 .lkedin {
     display: inline-block;
-    background: #666365; 
-    color: white;
     font-size: 0.755rem;
     padding: 0.5em;
     margin-top: 1em;
     border-radius: 4px;
-    transition: font-size 0.5ms;
     
+}
+
+.lkedin {
+    background: #8d8b8c; 
+    color: white; 
+}
+
+.btn {
+    background: #252525;
+    color: white;
 }
 
 .btn:hover,
 .btn:focus,
 .lkedin:hover,
 .lkedin:focus {
-    background: #545366; 
+    background: #666365; 
     color: white;
-    font-size: 0.855rem;
+}
+
+.portfolio-item h3 {
+    margin-bottom: 0.2em;
+    font-size:1rem;
 }
 
 @media(min-width: 600px) {
@@ -157,11 +170,53 @@ img {
     }
     
 
-    .btn,
-    .lkedin {
-        align-items: bottom;
+    body {
+        margin: 0;
     }
 
+    .down {
+        margin: .755em 0;
+    }
+
+    .portfolio {
+        min-height: 100vh;
+        display: flex;
+        align-items: center; 
+
+    }
+
+    .portfolio-item h3 {
+        margin-bottom: 0.2em;
+        font-size:1rem;
+    }
+
+    .portfolio .container {
+        max-width: 1200px;
+    
+    }
+
+    .portfolio-item  {
+        width: 30%;
+        
+    }
+
+    .portfolio-item img {
+        width: 100%;
+        height: 8.5em;
+        object-fit: cover;
+    }
+
+    .work {
+        display: flex;
+        justify-content: space-between;
+         
+    }
+
+    .presentation {
+        padding: .3em;
+    }
+
+  
 
 
 
